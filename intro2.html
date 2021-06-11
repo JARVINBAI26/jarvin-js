@@ -1,0 +1,33 @@
+<html>
+<head>
+
+<title>DOM</title>
+</head>
+
+<body>
+<h1 class="txt">tutor joes</h1>
+<p class="txt">this is para-1</p>
+<p id="p2">this is para-2</p>
+<p class="txt">this is para-3</p>
+<h3 class="txt">sample heading</h3>
+
+<button onclick="IdElement()">Get Id value</button>
+<button onclick="SetIdElement()">Set Id value</button>
+<script>
+function IdElement(){
+              var a=document.getElementById("p2").innerHTML;
+			  alert(a);
+
+
+
+}
+function SetIdElement(){
+
+              document.getElementById("p2").innerHTML="tutorjoes";
+
+};
+
+
+</script>
+</body>
+</html>

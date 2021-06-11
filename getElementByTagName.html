@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>DOM</title>
+<link rel="stylesheet" type="text/css" href="E:\JARVIN\js\cssjs\style.css">
+</head>
+<body>
+<h3>Get Elements By Name</h3>
+<label>Gender</label>
+<input type="radio" value="male" name="gen">male
+<input type="radio" value="female" name="gen">female
+
+<button onclick="getResult()">view</button>
+<script>
+ function getResult(){
+    var gender=document.getElementsByName("gen");
+	alert(gender.length);
+	
+	}
+	
+    
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>DOM</title>
+<link rel="stylesheet" type="text/css" href="E:\JARVIN\js\cssjs\style.css">
+</head>
+<body>
+<h3>Get Elements By Class Name</h3>
+<label>mark1</label>
+<input type="text" class="mark">
+<label>mark2</label>
+<input type="text" class="mark">
+<label>mark3</label>
+<input type="text" class="mark">
+<button onclick="getResult()">result</button>
+<script>
+ function getResult(){
+    var m=document.getElementsByClassName("mark");
+	var n=m.length;
+	alert(n);
+    }
+
+
+
+</script>
+</body>
+</html>
